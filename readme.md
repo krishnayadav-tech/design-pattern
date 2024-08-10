@@ -10,7 +10,7 @@ This repository contains implementations and explanations of various design patt
 - **[Factory Method Pattern](./factory-method/Readme.md)**
   - Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created.
 
-- **[Builder Pattern](./builder-pattern/Readme.md)**
+- **[Builder Pattern](./builder-pattern/readme.md)**
   - Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 
 - **[Prototype Pattern](./prototype-pattern/Readme.md)**
