@@ -4,16 +4,16 @@ This repository contains implementations and explanations of various design patt
 
 ## Patterns Included
 
-- **[Singleton Pattern](./singleton-pattern/readme.md)**
+- **[Singleton Pattern](./singleton-pattern/Readme.md)**
   - Ensures a class has only one instance and provides a global point of access to it.
 
-- **[Factory Method Pattern](./factory-method/readme.md)**
+- **[Factory Method Pattern](./factory-method/Readme.md)**
   - Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created.
 
-- **[Builder Pattern](./builder-pattern/readme.md)**
+- **[Builder Pattern](./builder-pattern/Readme.md)**
   - Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 
-- **[Prototype Pattern](./prototype-pattern/readme.md)**
+- **[Prototype Pattern](./prototype-pattern/Readme.md)**
   - Creates new objects by copying an existing object (prototype) rather than creating new instances from scratch.
 
 - **[Abstract Factory Pattern](./abstract-factory/readme.md)**
