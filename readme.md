@@ -1,7 +1,3 @@
-Here’s how you can structure the `readme.md` file for the `design-patterns` folder, linking to each pattern's documentation:
-
----
-
 # Design Patterns
 
 This repository contains implementations and explanations of various design patterns using TypeScript. Each design pattern is organized into its own folder with detailed documentation and example code.
@@ -69,7 +65,3 @@ If you want to contribute to this repository, please follow the guidelines in th
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-This `readme.md` will help you keep track of the design patterns and provide easy access to each pattern's documentation and examples. Make sure to update the paths if your folder structure changes.
