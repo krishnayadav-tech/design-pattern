@@ -1,0 +1,75 @@
+Here’s how you can structure the `readme.md` file for the `design-patterns` folder, linking to each pattern's documentation:
+
+---
+
+# Design Patterns
+
+This repository contains implementations and explanations of various design patterns using TypeScript. Each design pattern is organized into its own folder with detailed documentation and example code.
+
+## Patterns Included
+
+- **[Singleton Pattern](./singleton-pattern/readme.md)**
+  - Ensures a class has only one instance and provides a global point of access to it.
+
+- **[Factory Method Pattern](./factory-method/readme.md)**
+  - Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created.
+
+- **[Builder Pattern](./builder-pattern/readme.md)**
+  - Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+- **[Prototype Pattern](./prototype-pattern/readme.md)**
+  - Creates new objects by copying an existing object (prototype) rather than creating new instances from scratch.
+
+- **[Abstract Factory Pattern](./abstract-factory/readme.md)**
+  - Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+## Folder Structure
+
+Each design pattern is organized in a separate folder with the following structure:
+
+```
+design-patterns/
+│
+├── singleton-pattern/
+│   ├── readme.md
+│   └── example.ts
+│
+├── factory-method/
+│   ├── readme.md
+│   └── example.ts
+│
+├── builder-pattern/
+│   ├── readme.md
+│   └── example.ts
+│
+├── prototype-pattern/
+│   ├── readme.md
+│   └── example.ts
+│
+└── abstract-factory/
+    ├── readme.md
+    └── example.ts
+```
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the design pattern folder you are interested in.
+
+3. Follow the instructions in the respective `readme.md` file to understand the pattern and run the example code.
+
+## Contribution
+
+If you want to contribute to this repository, please follow the guidelines in the `CONTRIBUTING.md` file.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+This `readme.md` will help you keep track of the design patterns and provide easy access to each pattern's documentation and examples. Make sure to update the paths if your folder structure changes.
