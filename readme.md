@@ -22,6 +22,10 @@ This repository contains implementations and explanations of various design patt
 - **[Adapter Pattern](./adapter-pattern/readme.md)**
   - The Adapter Pattern allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects. This pattern acts as a bridge between two incompatible interfaces, making them compatible..
 
+- **[Adapter Pattern](./observer-pattern/Readme.md)**
+  - The Observer Pattern is a behavioral design pattern used to implement distributed event-handling systems. It defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically. This pattern is useful for creating a loosely coupled system where components can react to changes in other components.
+
+
 ## Folder Structure
 
 Each design pattern is organized in a separate folder with the following structure:
@@ -31,23 +35,27 @@ design-patterns/
 │
 ├── singleton-pattern/
 │   ├── readme.md
-│   └── example.ts
+│   └── index.ts
 │
 ├── factory-method/
 │   ├── readme.md
-│   └── example.ts
+│   └── index.ts
 │
 ├── builder-pattern/
 │   ├── readme.md
-│   └── example.ts
+│   └── index.ts
 │
 ├── prototype-pattern/
 │   ├── readme.md
-│   └── example.ts
+│   └── index.ts
+│
+├── observer-pattern/
+│   ├── readme.md
+│   └── index.ts
 │
 └── abstract-factory/
     ├── readme.md
-    └── example.ts
+    └── index.ts
 ```
 
 ## Getting Started
