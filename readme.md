@@ -19,6 +19,9 @@ This repository contains implementations and explanations of various design patt
 - **[Abstract Factory Pattern](./abstract-factory/readme.md)**
   - Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
+- **[Adapter Pattern](./adapter-pattern/readme.md)**
+  - The Adapter Pattern allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects. This pattern acts as a bridge between two incompatible interfaces, making them compatible..
+
 ## Folder Structure
 
 Each design pattern is organized in a separate folder with the following structure:
