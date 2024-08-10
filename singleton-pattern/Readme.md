@@ -16,65 +16,6 @@ The Singleton Pattern ensures that a class has only one instance and provides a 
 
 ## Implementation in TypeScript
 
-Here’s an implementation of a `DatabaseConnection` class using the Singleton Pattern:
-
-```typescript
-class DatabaseConnection {
-    private static instance: DatabaseConnection;
-    private connection: any;
-
-    private constructor() {
-        // Private constructor to prevent direct instantiation
-        this.connection = null;
-    }
-
-    public static getInstance(): DatabaseConnection {
-        if (!DatabaseConnection.instance) {
-            DatabaseConnection.instance = new DatabaseConnection();
-        }
-        return DatabaseConnection.instance;
-    }
-
-    public connect(): void {
-        if (this.connection === null) {
-            this.connection = "Connected to the database"; // Simulated connection
-            console.log(this.connection);
-        } else {
-            console.log("Already connected!");
-        }
-    }
-
-    public getConnection(): any {
-        return this.connection;
-    }
-
-    public disconnect(): void {
-        if (this.connection !== null) {
-            console.log("Disconnected from the database");
-            this.connection = null;
-        } else {
-            console.log("No connection to disconnect.");
-        }
-    }
-}
-
-// Usage example
-const db1 = DatabaseConnection.getInstance();
-db1.connect(); // Output: Connected to the database
-
-const db2 = DatabaseConnection.getInstance();
-db2.connect(); // Output: Already connected!
-
-console.log(db1 === db2); // Output: true
-
-db1.disconnect(); // Output: Disconnected from the database
-```
-
-### Key Points
-- **Private Constructor:** The constructor is private to prevent direct instantiation.
-- **Static Method:** The `getInstance()` method ensures that only one instance of the class is created.
-- **Global Access Point:** The `getInstance()` method provides a global point of access to the instance.
-
 ## Example: Logger System
 
 Here’s an example of a logger system using the Singleton Pattern. This implementation includes both `ConsoleLogger` and `FileLogger`:
@@ -144,6 +85,11 @@ class LoggerClass {
 
 export const loggerClass = LoggerClass.getInstance();
 ```
+
+### Key Points
+- **Private Constructor:** The constructor is private to prevent direct instantiation.
+- **Static Method:** The `getInstance()` method ensures that only one instance of the class is created.
+- **Global Access Point:** The `getInstance()` method provides a global point of access to the instance.
 
 ### Testing the Logger
 
