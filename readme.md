@@ -22,7 +22,7 @@ This repository contains implementations and explanations of various design patt
 - **[Adapter Pattern](./adapter-pattern/readme.md)**
   - The Adapter Pattern allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects. This pattern acts as a bridge between two incompatible interfaces, making them compatible..
 
-- **[Adapter Pattern](./observer-pattern/Readme.md)**
+- **[Observer Pattern](./observer-pattern/Readme.md)**
   - The Observer Pattern is a behavioral design pattern used to implement distributed event-handling systems. It defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically. This pattern is useful for creating a loosely coupled system where components can react to changes in other components.
 
 
