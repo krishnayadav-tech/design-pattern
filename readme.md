@@ -4,28 +4,28 @@ This repository contains implementations and explanations of various design patt
 
 ## Patterns Included
 
-- **[Singleton Pattern](./singleton-pattern/Readme.md)**
+- **[Singleton Pattern](./singleton-pattern)**
   - Ensures a class has only one instance and provides a global point of access to it.
 
-- **[Factory Method Pattern](./factory-method/Readme.md)**
+- **[Factory Method Pattern](./factory-method)**
   - Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created.
 
-- **[Builder Pattern](./builder-method/readme.md)**
+- **[Builder Pattern](./builder-method)**
   - Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 
-- **[Prototype Pattern](./prototype-pattern/Readme.md)**
+- **[Prototype Pattern](./prototype-pattern)**
   - Creates new objects by copying an existing object (prototype) rather than creating new instances from scratch.
 
-- **[Abstract Factory Pattern](./abstract-factory/readme.md)**
+- **[Abstract Factory Pattern](./abstract-factory)**
   - Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-- **[Adapter Pattern](./adapter-pattern/readme.md)**
+- **[Adapter Pattern](./adapter-pattern)**
   - The Adapter Pattern allows incompatible interfaces to work together by converting the interface of a class into another interface that a client expects. This pattern acts as a bridge between two incompatible interfaces, making them compatible..
 
-- **[Observer Pattern](./observer-pattern/Readme.md)**
+- **[Observer Pattern](./observer-pattern)**
   - The Observer Pattern is a behavioral design pattern used to implement distributed event-handling systems. It defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically. This pattern is useful for creating a loosely coupled system where components can react to changes in other components.
 
-- **[Dependency Injection / Inversion](./dependency-injection/readme.md)**
+- **[Dependency Injection / Inversion](./dependency-injection)**
   - Dependency Injection is a design pattern used to implement the Dependency Inversion Principle. It involves passing dependencies (e.g., services, objects, functions) into a class rather than having the class create the dependencies itself.
 
 - **[State Pattern](./state-pattern)**
