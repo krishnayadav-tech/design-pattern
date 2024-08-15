@@ -28,7 +28,7 @@ This repository contains implementations and explanations of various design patt
 - **[Dependency Injection / Inversion](./dependency-injection/readme.md)**
   - Dependency Injection is a design pattern used to implement the Dependency Inversion Principle. It involves passing dependencies (e.g., services, objects, functions) into a class rather than having the class create the dependencies itself.
 
-- **[State Pattern] (./state-pattern/)**
+- **[State Pattern] (./state-pattern/readme.md)**
   - The State Pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes. The object appears to change its class as it transitions between different states. This pattern is useful when an object’s behavior is dependent on its state and needs to change its behavior dynamically at runtime.
 
 
