@@ -31,6 +31,9 @@ This repository contains implementations and explanations of various design patt
 - **[State Pattern](./state-pattern)**
   - The State Pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes. The object appears to change its class as it transitions between different states. This pattern is useful when an object’s behavior is dependent on its state and needs to change its behavior dynamically at runtime.
 
+- **[Chain of responsibilty pattern](./chain-of-responsibility)**
+  - The Chain of Responsibility pattern is another behavioral design pattern that allows an object to pass a request along a chain of potential handlers. Each handler in the chain can either handle the request or pass it to the next handler in the chain.
+
 
 ## Folder Structure
 
